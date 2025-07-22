@@ -258,7 +258,7 @@ body {
 .products-grid {
     display: grid
     ;
-        grid-template-columns: repeat(auto-fit, minmax(225px, 4fr));
+        grid-template-columns: repeat(4, 1fr);
         gap: 24px;
         justify-content: center;
         padding: 20px;
@@ -448,10 +448,15 @@ body {
     }
 }
 
-@media (max-width: 1819px) {
+@media (max-width: 1525px) {
 .products-grid{
-    width:85%;
+    width:100%;
 }
   
+}
+@media (max-width: 900px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(225px, 4fr));
+  }
 }
 
