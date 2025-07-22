@@ -258,7 +258,7 @@ body {
 .products-grid {
     display: grid
     ;
-        repeat(auto-fit, minmax(225px, 4fr));
+        grid-template-columns: repeat(auto-fit, minmax(225px, 4fr));
         gap: 24px;
         justify-content: center;
         padding: 20px;
