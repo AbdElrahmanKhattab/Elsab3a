@@ -448,3 +448,10 @@ body {
     }
 }
 
+@media (max-width: 1819px) {
+.products-grid{
+    width:100%;
+}
+  
+}
+
